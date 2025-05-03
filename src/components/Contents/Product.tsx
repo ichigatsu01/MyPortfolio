@@ -16,7 +16,7 @@ const Product = ({img, link, title, tech, explain}: productWork) => {
         <li><a target='_brank'　href={link}><img src={img} alt="画面イメージ" /></a></li>
         <li>技術:{tech}</li>
         <li>説明：{explain}</li>
-        <li>デプロイ：<a href="{link}">リンク</a></li>
+        <li>デプロイ：<a href={link}>リンク</a></li>
       </ul>
       </div>
   )
