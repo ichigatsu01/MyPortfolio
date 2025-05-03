@@ -15,17 +15,17 @@ const Portfolio = () => {
   const works: Work[] = [
     {
       img: "img_product/01.png",
-      link: "https://cbt-app-private.vercel.app/",
+      link: "https://my-portfolio-bay-two-44.vercel.app/",
       title: "Portfolio-Site",
       tech: "HTML/CSS, React/Vite, TypeScript, MUI",
-      explain: "このサイトそのものです。"
+      explain: "このサイトそのものです。レスポンシブは対応作業中。"
     },
     {
       img: "img_product/00.png",
       link: "https://cbt-app-hazel.vercel.app//",
       title: "CBT-app",
       tech: "HTML/CSS, React/Vite, PHP, MySQL, MUI",
-      explain: "カウンセリングの一環で用いられる認知行動療法のコラム表をアプリ化したものです。SQLを用いた保存・読込の他、JSONファイル形式で出力することも可能です。実際にSQLを動かして保存しているため、個人情報や機密情報などは保存しないようにしてください！"
+      explain: "カウンセリングの一環で用いられる、認知行動療法のコラム表をアプリ化したものです。SQLを用いた保存・読込の他、JSONファイル形式で出力することも可能です。実際にSQLを動かして保存しているため、個人情報や機密情報などは保存しないようにしてください！"
     },
     {
       img: "img_product/02.png",

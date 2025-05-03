@@ -18,9 +18,13 @@ html, body {
 
 /* *ヘッダー */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   flex: 0.12;
-  width: 95vw;
-  /* background-color: #523239; */
+  width: 100vw;
+  background-color: #523239;
   color: aliceblue;
   display: flex;
   flex-direction: row;
@@ -35,6 +39,7 @@ html, body {
   list-style: none;
   height: 70px;
   align-items: center;
+  margin-right: 40px;
 }
 .header .navi li {
   margin: auto 15px;
@@ -44,11 +49,13 @@ html, body {
 
 /* *コンテンツ：プロフィールおよび作成物 */
 .contents {
+  padding-top: 100px;
   flex: 0.78;
   background-image: url(/bg.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
