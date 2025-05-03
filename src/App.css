@@ -1,0 +1,119 @@
+:root {
+  --contents-color:rgb(255, 250, 240, .6);;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  background-color: #523239;
+  /* justify-content: center; */
+}
+
+/* *ヘッダー */
+.header {
+  flex: 0.12;
+  width: 95vw;
+  /* background-color: #523239; */
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 0 50px 0 20px; */
+  align-items: center;
+  margin: auto;
+}
+.header .navi {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 70px;
+  align-items: center;
+}
+.header .navi li {
+  margin: auto 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* *コンテンツ：プロフィールおよび作成物 */
+.contents {
+  flex: 0.78;
+  background-image: url(./assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile {
+  height: 340px;
+  width: 80vw;
+  margin: 20px auto;
+  color: black;
+  display: flex;
+  background-color: var(--contents-color);
+  border-radius: 20px;
+}
+.profile .prof-img {
+  flex: 0.2;
+  display: flex;
+}
+.profile img {
+  height: 200px;
+  width: 200px;
+  border-radius: 9999px;
+  margin: auto;
+}
+.profile .prof-message {
+  flex: 0.5;
+  padding-left: 10px;
+  border-right: 1px dotted rgb(255, 250, 240);
+}
+.profile .prof-tech-stack {
+  flex: 0.3;
+  padding-left: 30px;
+}
+
+.portfolio {
+  width: 90vw;
+  display: grid;
+  /* background-color: black; */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.product {
+  background-color: var(--contents-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+.product h3 {
+  margin-top: 0;
+}
+.product ul {
+  list-style: none;
+}
+.product li {
+  margin-bottom: 10px;
+}
+.product img {
+  height: 200px;
+}
+
+
+/* * フッター */
+.footer {
+  flex: 0.1;
+  /* height: 15%; */
+  background-color: #523239;
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
