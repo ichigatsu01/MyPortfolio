@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className="profile">
         <div className="prof-img">
-            <img src="me.jpg" alt="実はマグロの赤身が一番好きです" />
+            <img src="/me.jpg" alt="実はマグロの赤身が一番好きです" />
         </div>
         <div className="prof-message">
             <p>初めまして、齋藤です。</p>

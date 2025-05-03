@@ -45,7 +45,7 @@ html, body {
 /* *コンテンツ：プロフィールおよび作成物 */
 .contents {
   flex: 0.78;
-  background-image: url(bg.jpg);
+  background-image: url(/bg.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
