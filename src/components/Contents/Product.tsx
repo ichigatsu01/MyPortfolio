@@ -1,5 +1,3 @@
-// import React from 'react'
-
 type productWork = {
   img: string;
   link: string;
