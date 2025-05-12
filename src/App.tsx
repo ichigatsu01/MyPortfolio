@@ -11,6 +11,13 @@ function App() {
   // 初回アクセス時のみ起動するようにする
   useEffect(() => {
     const done = () => setLoading(false);
+    // 既に読み込み済みなら即座にLoading.tsxを閉じる
+    if (document.readyState === 'complete') {
+      done();
+      return;
+    }
+
+    // 読込がまだなら load を待つ
     window.addEventListener("load", done)
     return () => window.removeEventListener("load", done)
   }, [])
@@ -18,6 +25,7 @@ function App() {
   return (
     <div className='App'>
       <Loading open={loading} />
+      {/* <Header setLoading={setLoading}/> */}
       <Header />
       <Contents />
       <Footer />

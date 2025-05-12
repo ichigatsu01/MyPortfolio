@@ -35,9 +35,9 @@ const Portfolio = () => {
       explain: "Python内に辞書を持たせてしりとりを出来るようにしました。Renderを利用しているため、起動までに時間がかかる可能性があります。表示がおかしい場合は「再スタート」をクリックしてください。レスポンシブ非対応。"
     },
   ];
-  works.map(work => (
-    console.log(work.title)
-  ))
+  // works.map(work => (
+  //   console.log(work.title)
+  // ))
   return (
     <div className="portfolio">
       {works.map((work, index) => (
