@@ -11,3 +11,6 @@
 - HTML/CSS
 - React(Vite)
 - MaterialUI
+
+## アイコンについて
+本サイトでは [MUI](https://mui.com/) のアイコンを使用しています。
