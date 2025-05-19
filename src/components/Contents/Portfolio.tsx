@@ -35,7 +35,7 @@ const Portfolio = () => {
       explain: "Python内に辞書を持たせてしりとりを出来るようにしました。Renderを利用しているため、起動までに時間がかかる可能性があります。表示がおかしい場合は「再スタート」をクリックしてください。レスポンシブ非対応。"
     },
         {
-      img: "img_product/03.png",
+      img: "img_product/03.jpg",
       link: "https://weatherapi-fceebvwkapd7uzgpytk2gy.streamlit.app//",
       title: "現在時刻の全国天気アプリ",
       tech: "Python, Folium, Streamlit, Streamlit-folium",
