@@ -34,10 +34,14 @@ const Portfolio = () => {
       tech: "HTML/CSS, Python, Flask, Bootstrap(アイコンのみ)",
       explain: "Python内に辞書を持たせてしりとりを出来るようにしました。Renderを利用しているため、起動までに時間がかかる可能性があります。表示がおかしい場合は「再スタート」をクリックしてください。レスポンシブ非対応。"
     },
+        {
+      img: "img_product/03.png",
+      link: "https://weatherapi-fceebvwkapd7uzgpytk2gy.streamlit.app//",
+      title: "現在時刻の全国天気アプリ",
+      tech: "Python, Folium, Streamlit, Streamlit-folium",
+      explain: "OpenWeatherの現在時刻の天気APIをPythonで取得し、Streamlit-foliumで表示します。レスポンシブ非対応。"
+    },
   ];
-  // works.map(work => (
-  //   console.log(work.title)
-  // ))
   return (
     <div className="portfolio">
       {works.map((work, index) => (
