@@ -46,7 +46,14 @@ const Portfolio = () => {
       link: "https://kitakatasuikomap-ajrp3msyidm2tkvnalqljy.streamlit.app/",
       title: "北方水滸伝地図",
       tech: "Python, Folium, Streamlit, Streamlit-folium",
-      explain: "北方謙三の水滸伝を地図と一緒に読めたらいいのになあ、と思って作った趣味丸出しのアプリ。"
+      explain: "北方謙三の水滸伝を地図と一緒に読めたらいいのになあ、と思って作った趣味丸出しのアプリ。随時追加中です。"
+    },
+    {
+      img: "img_product/05.jpg",
+      link: "https://reserve-system-2.vercel.app/",
+      title: "ペットクリニックのWeb予約システム",
+      tech: "TypeScript, Fullcalendar.js, React(Vite), MaterialUI, Firebase",
+      explain: "簡易ログインと予約登録を実装しています。レスポンシブ対応済。デフォルトの診療番号は0001です。"
     },
   ];
   return (
